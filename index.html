@@ -1,0 +1,102 @@
+<!-- 
+etiket isimlerini direk verebiliyoruz
++ kardes oge
+> icinde oge
+^ yukari cik ve oge olustur
+* carp - p*3
+lorem4 --- 4 kelimelik lorem üret
+. - class
+# - id
+ -->
+
+
+
+ <!--h1+p+p+h2+p+p+p+p-->
+ <!-- h1+p+p+h2+p+p+p+p => h1+p*2+h2+p*4 -->
+ <!-- YUKARIDA YAZDIKLARIM KARDES OGE -->
+
+ <!-- ul>li*5 -->
+ <!-- ul>li*3^p*2+h3 -->
+ <!-- Yukarıda yazdıklarım icinde oge için -->
+
+ <!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 => hatalı olan -->
+ <!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+ <!-- yukarudaki bütün hepsinin kullanımını anlatıyor ne kadar çok içine açarsak o kadar üstüne atarız -->
+
+ <!-- h3. class => h3 . dive -->
+ <!-- h3# id  -->
+ <!-- yukarıdakilerin yazılışları ve alacağı , atanacağı şekiller belli -->
+
+ <!-- img kullanılır resimler icin -->
+
+ <!-- <img src="https://assets.ubuntu.com/v1/fdb8126b-google+cloudhp-strip-customers.png" alt="google cloud"> -->
+ <!-- img yazıp entere basıldığı takdirde karşımıza aşağıdaki gibi bir  satır ve dizilim gelecek bu dizilimin içine pc ye indirdiğimiz resimlerin isimleri ve dosya uzantıları ile birlikte yazdığımızda sitemizde görsel gözükecek -->
+ <img src="buraya dosya uzantisini eksiksiz yaziyoruz" alt="">
+<!-- LİNK KULLANMA
+ -->
+ <!-- ayni sayfa icinde bi yere   
+başka bi sayfaya
+başka bi websitesine git 
+mail at
+telefon et-->
+
+<ul>
+    <li>
+        <a href="http://kodluyoruz.org" target="_blank">
+            kodluyoruz sitesine gidilecek
+        </a>
+    </li>
+    <li>
+        <a href="iletisim.html">iletisim sayfasina git</a>
+    </li>
+    <li>
+        <a href="#footer">
+            En alt kisim
+        </a>
+    </li>
+    <li>
+        <a href="mailto:info@kodluyoruz.org">
+            kodluyoruz'a mail at
+        </a>
+    </li>
+    <li>
+        <a href="tel:05336663366">
+            telefon aç
+        </a>
+    </li>
+</ul>
+
+
+
+<!--  a ya basıp taba bastığımızda href geliyor bu sayfanın gitmek istediğiniz yerini anlatıyor -->
+<a href="http://kodluyoruz.org" target="_blank">
+    kodluyoruz sitesine gidilecek
+</a>
+<!-- eğer başka bi sayfa da açmak istiyorsak; <a href="http://kodluyoruz.org"> target='_blank' -->
+
+    <!-- <a href="iletisim.html">iletisim sayfasina git</a>  yazıyoruz fakat yanyana gözükecek bu yüzden <br> komutu kullanıcaz bi alt satıra geç komutu -->
+    
+    <br>
+    <a href="iletisim.html">iletisim sayfasina git</a>
+
+    <!-- eğer sayfanin en altına girmek istiyorsan en alta ilk önce en alt kısma in diye bir başlık açılıyor ardından linki koymak istediğimiz yere çıkıyoruz ve kodları yazıyoruz -->
+    <!-- en altta en alt kisim yazarken başlığa h2 id="footer"<en alt kisim> olarak yazılır -->
+    <!-- mail at ile direk maile göndermek için ;  <li>
+        <a href="mailto:info@kodluyoruz.org">
+            kodluyoruz'a mail at
+        </a>
+    </li>bunu kullanuıyoruz başına mailto: koyuyoruz -->
+    <!-- telefon aç linki için ; <a href="tel:05336663366">
+                                        telefon aç -->
+
+<!--  Gorselin üstüne link eklemek için ;
+<a href="">
+    resim url si kopyaliyoruz
+</a> 
+sonra da href'in icine gitmek istediğin adresi yazıyorsun  -->
+
+
+<!-- BLOCK ELEMENTLER VE İNLİNE ELEMENTLER KAYNAK ;HTMLREFERENCE.İO -->
+ <!-- bi yazı yan tarafını da kaplamıyorsa inline elementtir başlıklar block paragraf block elementtir -->
+ <!--  div komutu block oluşturmak için kullandığımız yapıdır. -->
+ <!--  div elementi block oluşturur, hr ise paragrafı ya da yazıyı bi bölümde sayfaya komple çizgi çekiyor. -->
